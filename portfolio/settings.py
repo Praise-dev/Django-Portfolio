@@ -122,7 +122,7 @@ USE_TZ = True
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'portfolio/static/js'),
     os.path.join(BASE_DIR, 'portfolio/static/css'),
-    os.path.join(BASE_DIR, 'portfolio/static/js')
+    os.path.join(BASE_DIR, 'portfolio/static/')
 ]
 
 STATIC_URL = '/static/'
